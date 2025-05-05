@@ -1,16 +1,26 @@
-# example1
+# Flutter Animated Examples
 
-A new Flutter project.
+A clean architecture Flutter project demonstrating various animation examples with custom navigation, transitions, and modular architecture.
 
-## Getting Started
+![Example 1 Demo](assets/animations/example1.gif)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Animation Examples with smooth transitions
+- Custom 3D rotation
+- Smooth animation using `AnimationController`
+- Clean architecture ready for expansion
+- Custom Router/Navigation integration ready
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+Clone the repo and run:
+
+```bash
+flutter pub get
+flutter run
+```
