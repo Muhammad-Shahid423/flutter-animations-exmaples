@@ -3,6 +3,7 @@
 A clean architecture Flutter project demonstrating various animation examples with custom navigation, transitions, and modular architecture.
 
 ![Example 1 Demo](assets/animations/example1.gif)
+![Example 2 Demo](assets/animations/example2.gif)
 
 ---
 
@@ -33,6 +34,7 @@ flutter run
 - `Tween<double>`
 - `Matrix4.rotationY`
 - `AnimatedBuilder`
+- `ClipPath` with `CustomClipper`
 
 ---
 
@@ -41,7 +43,9 @@ flutter run
 ```
 lib/
 ├── core/
-│   └── router/         # Custom route config and transition pages
+│   ├── router/         # Custom route config and transition pages
+│   ├── enums/          # Reusable enums like CircleSide
+│   └── widgets/        # Shared widgets like HalfCircleClipper
 ├── features/
 │   └── animations/
 │       ├── presentation/
@@ -49,7 +53,8 @@ lib/
 │       │   └── examples/ # Each animation example (Example1, Example2, ...)
 assets/
 └── animations/
-    └── example1.gif
+    ├── example1.gif
+    └── example2.gif
 main.dart
 ```
 
@@ -62,6 +67,18 @@ A 3D Y-axis rotating animated box using `Matrix4` and `AnimationController`.
 ### 🔁 Preview:
 
 ![Example 1](assets/animations/example1.gif)
+
+---
+
+## 📸 Example 2 – Half-Circle Flip & Rotate
+
+A combined animation of flipping two half-circles and rotating them counter-clockwise in sequence using chained `AnimationController`s and a custom `HalfCircleClipper`.
+
+### 🎥 Preview:
+
+▶️ [Watch Example 2 Animation](assets/animations/example2.gif)
+
+> Note: GitHub does not auto-play `.mp4`. Click the link to preview, or convert to GIF for inline preview.
 
 ---
 

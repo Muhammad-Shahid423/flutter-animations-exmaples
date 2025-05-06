@@ -12,7 +12,7 @@ class AnimationHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Flutter Animations')),
       body: ListView.builder(
-        itemCount: 1,
+        itemCount: 2,
         itemBuilder: (context, index) {
           return Padding(
             padding: const EdgeInsets.all(12),
