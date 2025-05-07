@@ -2,9 +2,9 @@
 
 A clean architecture Flutter project demonstrating various animation examples with custom navigation, transitions, and modular architecture.
 
-<img src="assets/animations/example1.gif" alt="Example 1 Demo" width="400"/>
-<img src="assets/animations/example2.gif" alt="Example 2 Demo" width="400"/>
-<img src="assets/animations/example3.gif" alt="Example 3 Demo" width="400"/>
+<img src="assets/animations/example1.gif" alt="Example 1 Demo" width="400", height="400"/>
+<img src="assets/animations/example2.gif" alt="Example 2 Demo" width="400", height="400"/>
+<img src="assets/animations/example3.gif" alt="Example 3 Demo" width="400", height="400"/>
 
 ---
 
@@ -68,7 +68,7 @@ A 3D Y-axis rotating animated box using `Matrix4` and `AnimationController`.
 
 ### 🔁 Preview:
 
-<img src="assets/animations/example1.gif" alt="Example 1" width="400"/>
+<img src="assets/animations/example1.gif" alt="Example 1" width="400", height="400"/>
 
 ---
 
@@ -78,7 +78,7 @@ A combined animation of flipping two half-circles and rotating them counter-cloc
 
 ### 🔁 Preview:
 
-<img src="assets/animations/example2.gif" alt="Example 2" width="400"/>
+<img src="assets/animations/example2.gif" alt="Example 2" width="400", height="400"/>
 
 ---
 
@@ -88,7 +88,7 @@ A rotating cube animation with continuous X, Y, and Z-axis spins using separate 
 
 ### 🔁 Preview:
 
-<img src="assets/animations/example3.gif" alt="Example 3" width="400"/>
+<img src="assets/animations/example3.gif" alt="Example 3" width="400", height="400"/>
 
 ---
 
