@@ -2,8 +2,9 @@
 
 A clean architecture Flutter project demonstrating various animation examples with custom navigation, transitions, and modular architecture.
 
-![Example 1 Demo](assets/animations/example1.gif)
-![Example 2 Demo](assets/animations/example2.gif)
+<img src="assets/animations/example1.gif" alt="Example 1 Demo" width="400"/>
+<img src="assets/animations/example2.gif" alt="Example 2 Demo" width="400"/>
+<img src="assets/animations/example3.gif" alt="Example 3 Demo" width="400"/>
 
 ---
 
@@ -32,7 +33,7 @@ flutter run
 
 - `AnimationController`
 - `Tween<double>`
-- `Matrix4.rotationY`
+- `Matrix4.rotationY`, `rotationX`, `rotationZ`
 - `AnimatedBuilder`
 - `ClipPath` with `CustomClipper`
 
@@ -54,7 +55,8 @@ lib/
 assets/
 └── animations/
     ├── example1.gif
-    └── example2.gif
+    ├── example2.gif
+    └── example3.gif
 main.dart
 ```
 
@@ -66,7 +68,7 @@ A 3D Y-axis rotating animated box using `Matrix4` and `AnimationController`.
 
 ### 🔁 Preview:
 
-![Example 1](assets/animations/example1.gif)
+<img src="assets/animations/example1.gif" alt="Example 1" width="400"/>
 
 ---
 
@@ -74,11 +76,19 @@ A 3D Y-axis rotating animated box using `Matrix4` and `AnimationController`.
 
 A combined animation of flipping two half-circles and rotating them counter-clockwise in sequence using chained `AnimationController`s and a custom `HalfCircleClipper`.
 
-### 🎥 Preview:
+### 🔁 Preview:
 
-▶️ [Watch Example 2 Animation](assets/animations/example2.gif)
+<img src="assets/animations/example2.gif" alt="Example 2" width="400"/>
 
-> Note: GitHub does not auto-play `.mp4`. Click the link to preview, or convert to GIF for inline preview.
+---
+
+## 📸 Example 3 – 3D Cube Rotation
+
+A rotating cube animation with continuous X, Y, and Z-axis spins using separate animation controllers and `Matrix4` transforms.
+
+### 🔁 Preview:
+
+<img src="assets/animations/example3.gif" alt="Example 3" width="400"/>
 
 ---
 

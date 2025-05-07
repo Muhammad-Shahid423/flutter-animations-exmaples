@@ -31,6 +31,8 @@ class SuperchargedRouter extends RouterDelegate<PageState>
         return const Example1();
       case 2:
         return const Example2();
+      case 3:
+        return const Example3();
       default:
         return const Scaffold(body: Center(child: Text('Example not found')));
     }
